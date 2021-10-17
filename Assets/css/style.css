@@ -1,0 +1,264 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f2f2f2 ;
+     font-family: 'Times New Roman', Times, serif;
+}
+
+/*************Tranding Sectio******************/
+.main_container {
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.main { 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.alibaba_section {
+    margin: 0.5rem;
+    background-color: white;
+    border-radius: 0.7rem;
+    padding: 0rem 1rem;
+}
+
+.heading_2 {
+    font-size: 24px;
+    color: #333333;
+}
+
+.alibaba_section_wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.alibaba_section_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.alibaba_section_imgContainer {
+    max-width: 17.3rem;
+}
+
+.alibaba_section_img {
+    width: 90%;
+    border-radius: 8px;
+}
+
+.alibaba_section_price p {
+    font-size: 16;
+    font-weight: 600;
+    color: #666666;
+}
+
+@media (max-width: 900px) {
+    .main {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+}
+@media (max-width: 580px) {
+    .media {
+        display: none;
+    }
+}
+/*-----------Showroom Section-----------------*/
+
+.section-cards{
+    width: 100%;
+}
+
+.cards{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.Row1{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Row1 h4 {
+    font-size: 1.6rem;
+    margin-top:25px;
+    margin-bottom:0px
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    width: 14.375rem;
+    height: auto;
+    margin: 0 10px;   
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px 0 rgba(rgb(0, 0, 0, 0.2));
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+.card-bg{
+	/*background: url(Assets/img/bg.png);*/
+}
+.card-bg1{
+/*	background: url(Assets/img/bg2.jpg);*/
+}
+
+.btn{
+	color: rgb(255, 102, 0);
+	padding: 6px 15px;
+    border-radius:50px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 11px;
+    margin: 4px 2px;
+    cursor: pointer;
+    margin-left: 11px;
+    margin-bottom: 30px;
+}
+
+.name{
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	margin-top: 12px;
+	margin-left: 11px;
+    margin-bottom: 5px;       
+}
+
+.img-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-section img{
+    width: 14.3rem;
+    height: 14.375rem;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+.desc {
+    margin: 10px;
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+/****************Product section****************/
+
+.tags {
+    margin: 3px;
+    font-size: 12px;
+}
+
+.work{ 
+    color: rgb(255, 107, 0.2);
+    font-size: 12px;
+    background-color: rgb(255, 239, 229);
+    margin-left: 4px;
+}
+
+.ship{
+	margin-top: 4px;
+}
+
+.title{
+	color: rgb(113, 113, 113);
+}
+
+.cn{
+	color: rgb(83, 100, 122);
+    font-weight: bold;
+    margin-left: 3px;
+    padding-top: 2px;
+}
+
+.pieces{
+	font-size: 12px;
+	color: rgb(113, 113, 113);
+    margin-top: 3px;
+}
+
+.price{
+	color: rgb(51, 51, 51);
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 4px; 
+}
+
+.small-logo{
+ margin-top: 5px;
+ margin-left: 4px
+}
+/*******************Suppliers Section*****/
+.supplier{
+    margin: 16px 0;
+    display: flex;
+  flex-wrap: wrap;
+}
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  width:85%;
+  border: 1px solid #dae2ed;
+  background-color: #fff;
+  padding: 0px 16px;
+}
+.div1{
+  font-size: 16px;
+  width:16%;
+  color: #666;
+}
+.div2{
+  font-size: 16px;
+  width:83%;
+}
+.div3{
+    width: 33%;
+    color: #666;
+}
+.div4{
+    width: 50%;
+    color: #666;
+}
+.hover{
+    line-height: 1.5;
+}
+.hover:hover{
+   color: red;
+   cursor: pointer;
+}
+.flex1{
+    margin-top: 16px;
+}
+/*************Footer Section************/
+.ui-footer {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f5f5f5;
+  padding-bottom: 20px;
+}
+.ui-footer a {
+  color: #999;
+  text-decoration: none;
+}
+#ui-footer1,
+#ui-footer2,
+#ui-footer3,
+#ui-footer4 {
+  color: #999;
+  text-decoration: none;
+}
