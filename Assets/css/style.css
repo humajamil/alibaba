@@ -5,6 +5,81 @@ body{
     background-color: #f2f2f2 ;
      font-family: 'Times New Roman', Times, serif;
 }
+/*header*/
+
+
+
+.slider{
+  margin: 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.containerslide {
+  display: flex;
+  flex-wrap: wrap;
+  margin:0 auto;
+  padding: 0px 16px;
+}
+.sidebar{
+   display: flex;
+  flex-wrap: wrap;
+  background-color: #fff;
+  padding: 0px 40px;
+  border-radius: 8px;
+}
+.nav{
+  font-size: 12px;
+  list-style-type: none;
+  padding: 0px;
+
+}
+.dec{
+    text-decoration: none;
+      color: black;
+}
+.dec1{
+    text-decoration: none;
+      color: black;
+      font-size: 13px;
+      padding: 20px;
+}
+.dec1:hover{
+  color: red;
+}
+.dec:hover{
+      color: red;
+}
+.cover{
+  padding-left: 10px;
+}
+.items{
+    background-color: white;
+     display: flex;
+     text-align: center;
+     font-size: 12px;
+    border-radius: 8px;
+    margin-top: 10px;
+     padding-left: 40px;
+}
+.pic{
+  border-radius: 50px;
+  background-color: rgba(0,0,0,.02);
+
+}
+/* On screens that are 1233px wide or less, the background color is blue */
+@media screen and (max-width: 1246px) {
+.containerslide {
+ display: contents;
+}
+
+}
+@media screen and (max-width: 1215px) {
+.containerslide {
+ display: none;
+}
+
+}
+
 
 /*************Tranding Sectio******************/
 .main_container {
@@ -105,14 +180,6 @@ body{
     border-radius: 8px;
     margin-top: 20px;
 }
-
-.card-bg{
-	/*background: url(Assets/img/bg.png);*/
-}
-.card-bg1{
-/*	background: url(Assets/img/bg2.jpg);*/
-}
-
 .btn{
 	color: rgb(255, 102, 0);
 	padding: 6px 15px;
@@ -242,6 +309,40 @@ body{
 }
 .flex1{
     margin-top: 16px;
+}
+/* On screens that are 992px wide or less, the background color is blue */
+@media screen and (max-width: 995px) {
+    .div1 {
+    width: 100%;
+  }
+  .div3 {
+    width: 33%;
+  }
+  .div4 {
+    width: 50%;
+  }
+}
+/* On screens that are 976px wide or less, the background color is blue */
+@media screen and (max-width: 995px) {
+  .div3 {
+    width: 50%;
+  }
+  .div4 {
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .div1 {
+    width: 100%;
+  }
+  .div3 {
+    width: 100%;
+  }
+  .div4 {
+    width: 100%;
+  }
 }
 /*************Footer Section************/
 .ui-footer {
